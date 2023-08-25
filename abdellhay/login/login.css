@@ -87,6 +87,16 @@ form input{
     width: 350px;
     outline: 0;
 }
+form >div{
+    position: relative;
+}
+.error{
+    color: red;
+    font-size: 0.7em;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+}
 #forgot-pass{
     position: absolute;
     bottom: 4px;
